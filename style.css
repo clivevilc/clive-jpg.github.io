@@ -1,0 +1,202 @@
+/* Local Font */
+@font-face {
+    font-family: "Quentin";
+    src: url("./Font/Quentin.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+html,
+body {
+    font-family: 'Bitter', serif;
+    color: #000;
+
+}
+
+section h1 {
+    padding-top: 0px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+/* Video Intro */
+
+.intro {
+    height: 100vh;
+}
+
+.intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: #fff;
+}
+
+
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: "Quentin";
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-weight: 500;
+    padding-right: 3rem;
+    color: #fff;
+}
+
+nav .container-fluid {
+    padding: 0% 10% 0 15%;
+}
+
+.navbar {}
+
+.nav-scrolled {
+    background-color: aqua
+}
+
+.nav-active {
+    background-color: rgba(0, 0, 0, 0.672);
+    position: fixed;
+}
+
+/* About */
+#about {
+    background-color: #fff;
+}
+
+.aboutme {
+    padding: 10% 5% 0% 5%;
+}
+
+.aboutme-img {
+    height: 90vh;
+}
+
+h2.section-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3.second-title {
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.image {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+
+h2.animate__backInLeft {
+    --animate-duration: 2s;
+}
+
+
+/* Photos */
+
+#album {
+    text-align: center;
+}
+
+.album-img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Map */
+
+iframe {
+    width: 100%;
+    height: 20rem;
+}
+
+/* Footer */
+
+#contact {
+    padding: 3% 5% 10%;
+    text-align: center;
+}
+
+.footer-icons {
+    padding: 30px 40px;
+    color: black;
+    font-size: 25px;
+}
+
+.footer-icons:hover {
+    color: rgb(170, 170, 170);
+}
+
+.contact-box {
+    padding: 5% 0% 2%;
+}
+
+.contact-title {
+    padding-bottom: 0%;
+    font-size: 24px;
+}
+
+.footer-font {
+    font-size: 12px;
+    color: grey;
+}
+
+/* contact form */
+.contact-form {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-form form {
+    padding: 5% 10% 10%;
+}
+
+.form-group {
+    padding-bottom: 3%;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 2%;
+    background: #000000;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
